@@ -28,6 +28,8 @@ section#login{
     width: 256px;
     height: 500px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in-out;
 }
 section#login > div#imagem{
     background: #672c67 url(../imagens/pexels-pixabay-35543.jpg) no-repeat; 
